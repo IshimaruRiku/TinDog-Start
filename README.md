@@ -1,2 +1,1 @@
-# TinDog-Start
-TinDog a Tinder like
+TinDog Starting Files
