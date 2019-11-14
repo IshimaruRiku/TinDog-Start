@@ -74,13 +74,13 @@ h3
 }
 
 /* Font Awesome features icon */
-.fas
+.feature-icon
 {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.fas:hover
+.feature-icon:hover
 {
   color: #ff4c68;
 }
@@ -109,6 +109,22 @@ h3
 .pricing-column
 {
   padding: 3% 3%;
+}
+
+/* CTA Elements heading */
+.cta-heading
+{
+  font-weight: 900;
+  padding: 3%;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer icon element */
+.footer-icon
+{
+  color:#000;
+  margin: 1%;
 }
 
 /* Title Section id */
@@ -147,4 +163,39 @@ h3
 {
   text-align: center;
   padding: 10%;
+}
+
+/* CTA Section id */
+#cta
+{
+  text-align:center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+/* Footer Section id */
+#footer
+{
+  text-align: center;
+  background-color:#fff;
+  padding: 7% 15%;
+}
+
+@media (max-width: 1024px){
+  h1
+  {
+    text-align: center;
+  }
+
+  .title-img
+  {
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title
+  {
+    text-align: center;
+  }
 }
